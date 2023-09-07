@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Teko", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.menu-bar {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.total-div {
+  display: grid;
+  grid-template-columns: 80px auto;
+}
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  padding: 14px;
+  padding-left: 6px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+.message-grp {
+  width: 50px;
+  height: 50px;
+  padding-left: 6px;
+  margin-top: 122px;
+}
+.message-grp img {
+  padding-top: 40px;
+}
+.header {
+  padding-top: 28px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px groove #d8d8d8;
+}
+.first-section {
+  border-right: 1px groove #d8d8d8;
+  height: 100vh;
+}
+.list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #d8d8d8;
+  padding: 0px;
+  border-radius: 8px;
+}
+.list-icon img{
+  width: 20px;
+  height: 20px;
+}
+.header-start {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header-end img{
+  
+  justify-content: space-around;
+  align-items: center;
+}
+.person{
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 35px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+.search{
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 35px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+.divided-section{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.inbox{
+  border-right: 1px groove #D8D8D8;
+  height: 100vh;
+}
+.chat{
+  border-right: 1px groove #D8D8D8;
+  height: 100vh;
+}
+.profile{
+  border-right: 1px groove #D8D8D8;
+  height: 100vh;
+}
+.all-msg{
+  
+  width: 250px;
+  height:100px;
+  padding-left: 10px;
+}
+.inbox-container{
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #D8D8D8 ;
+  padding-left: 20px;
+}
+.inbox-container img{
+  width: 40px;
+  height: 40px;
+}
